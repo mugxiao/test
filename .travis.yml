@@ -6,5 +6,5 @@ script:
 #- /bin/bash .travis/build.sh Singularity
 # build 
 #- travis_wait 40 sudo singularity build Singularity.simg Singularity
--echo 'test'
+- echo 'test'
 
