@@ -7,4 +7,7 @@ script:
 # build 
 #- travis_wait 40 sudo singularity build Singularity.simg Singularity
 - echo 'test'
+- sleep 120
+- echo 'waked up'
+
 
